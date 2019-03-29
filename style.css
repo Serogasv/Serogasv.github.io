@@ -1,0 +1,131 @@
+body {
+	margin: 0 auto;
+	background-image: url(img/bg.png)
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+	
+}
+
+/*.headers {
+	background-color: #e8ebf1;
+}*/
+
+header{
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap; 
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 0;	
+}
+
+.m_yacht img{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap; 
+	max-width: 1400px;
+	width: 98%;
+	margin: 0 auto;
+	padding: 10px 0;
+	
+}
+.contents{
+	
+	display: flex;
+	justify-content: space-between;
+	/*background-color: #fff;*/
+	box-sizing: border-box;
+	align-items: center;
+
+	
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap; 
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.content img{
+	display: flex;
+	width: 32%;
+	margin: 5px;
+	transition: 0.2s;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-between;
+}
+
+/*.contents img:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0 8px 0px black;
+}*/
+
+ul 	{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+li {
+	list-style: none; 
+	margin-right: 15px;
+	font-style: Tahoma;
+	font-size: 22px;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	border: 2px solid transparent;
+}
+
+ul li a:hover{
+	color: white;
+	background: gray;
+	border-radius: 5px;
+	border-top: 2px solid blue;
+}
+
+
+
+
+@media screen and (max-width: 796px) {
+	header {
+		flex-direction: column;
+		padding: 20px 0;
+	}
+	
+	header img {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	header ul {
+		flex-direction: column;
+	}
+	
+	header ul li {
+		margin: 7px 0 7px 0; 
+
+	}
+	foto img{
+		flex-direction: column;
+	}
+
+
+}
