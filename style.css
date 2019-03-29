@@ -94,7 +94,9 @@ ul li a:hover{
 	border-top: 2px solid blue;
 }
 
-
+.contents img:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0 8px 0px black;
 
 
 @media screen and (max-width: 796px) {
